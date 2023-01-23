@@ -1,0 +1,78 @@
+.linearbg {
+  background: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
+}
+.linearcol {
+  color: #ff8938;
+  background-color: white;
+  border: 0;
+
+
+
+}
+.linearbg-2 {
+  background: linear-gradient(46.97deg, #1c1d1f -12.65%, #595959 85.23%);
+}
+.rating-icon {
+  width: 25px;
+}
+.custom-position {
+  position: relative;
+}
+
+.custom-rating {
+  position: absolute;
+  bottom: 50px;
+  left: 120px;
+  background-color: #fff;
+}
+.custom-img {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    border: 3px solid white;
+}
+.custom-div {
+    position: absolute;
+    top:150px;
+    left: 00px;
+}
+.tea-box {
+  background: linear-gradient(180deg, #f4f4f4 0%, rgba(244, 244, 244, 0) 100%);
+  border-radius: 10px;
+}
+.red-box {
+  background: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
+  opacity: 0.1;
+  border-radius: 10px;
+  transform: rotate(-180deg);
+}
+.orange-box {
+  background: rgba(230, 166, 35, 0.1);
+  border-radius: 10px;
+  transform: rotate(360deg);
+}
+.gray-box {
+  background: rgba(87, 118, 57, 0.1);
+  border-radius: 10px;
+}
+.light-box {
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0) 100%);
+border-radius: 10px;
+}
+.custom-list ul li {
+    color: #494949;
+}
+.custom-list ul li:first-child {
+    color: #1c1c1c;
+}
+.form form input {
+    border:none;
+    background-color: transparent;
+    border-bottom: 1px solid #1c1c1c;
+    padding: 0 12px;
+}
+@media screen and (max-width: 688px) {
+    .custom-div {
+        left: 50px;
+    }
+}
